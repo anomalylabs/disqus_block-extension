@@ -13,6 +13,13 @@ class DisqusBlockExtension extends BlockExtension
 {
 
     /**
+     * The extension category.
+     *
+     * @var string
+     */
+    protected $category = 'social';
+
+    /**
      * This extension provides a disqus
      * block for the blocks module.
      *
